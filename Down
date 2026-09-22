@@ -1,0 +1,7 @@
+# Flight Control Computer (FCC) - Starship Telemetry Auditor
+This repository contains the real-time critical telemetry processing subsystem matching **DO-178C Level A** avionics standards.
+
+## Project Specifications
+* **Standard:** MISRA C++:2008 / Hard Real-Time O(1)
+* **Target:** Fixed-point math logic to prevent IEEE-754 scaling drifts.
+* **Failsafe:** Auto-trips a structural abort if telemetry inputs are spoofed or physically impossible.
